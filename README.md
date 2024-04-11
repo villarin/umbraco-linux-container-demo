@@ -14,6 +14,7 @@ Umbraco CMS as a Linux container demo featuring:
    * sudo apt-get install docker-io 
    * git clone https://github.com/villarin/umbraco-linux-container-demo.git
 2. Build and run the docker image 
+   * Switch to the cloned repo working copy i.e. cd umbraco-linux-container-demo
    * docker build -t umbraco-demo:13.2 .
    * docker run  -dit -p 8000:8000  -v ${PWD}:/mnt/volume --name Umbraco.Demo.13 umbraco-demo:13.2
      
@@ -27,6 +28,7 @@ Umbraco CMS as a Linux container demo featuring:
 4. Clone repo to designated location
    * git clone https://github.com/villarin/umbraco-linux-container-demo.git
 5. Build and run the docker image 
+   * Switch to the cloned repo working copy i.e. cd umbraco-linux-container-demo
    * docker build -t umbraco-demo:13.2 .
    * docker run  -dit -p 8000:8000  -v ${PWD}:/mnt/volume --name Umbraco.Demo.13 umbraco-demo:13.2
 
